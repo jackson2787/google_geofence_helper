@@ -1,0 +1,33 @@
+name: google_geofence_helper
+description: A Flutter package that provides an interactive map widget for creating and editing geofences, perfect for defining delivery zones, service areas, or any other geofenced regions.
+version: 1.0.0
+homepage: https://github.com/jackson2787/flutter_map_geofence
+repository: https://github.com/jackson2787/flutter_map_geofence
+issue_tracker: https://github.com/jackson2787/flutter_map_geofence/issues
+documentation: https://github.com/jackson2787/flutter_map_geofence/blob/main/README.md
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.3
+  google_maps_flutter_web: ^0.5.4+3
+  collection: ^1.17.2
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+topics:
+  - maps
+  - geofence
+  - location
+  - google-maps 
